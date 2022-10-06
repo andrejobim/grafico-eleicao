@@ -12,7 +12,7 @@ public class GerarEleicao {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\eleicaoSimularacao.txt");
+        File file = new File("C:\\Users\\André Jobim\\eleicaoSimularacao.txt");
         FileWriter fileWriter = new FileWriter(file.getPath(), Boolean.TRUE);
         buffWrite = new BufferedWriter(fileWriter);;
 

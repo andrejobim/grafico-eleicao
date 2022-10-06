@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Estado {
 
-    private static final Integer TOTAL = 10000;
+    private static final Integer TOTAL = 100;
     private final List<MunicipioEleitor> municipioEleitores = new ArrayList<>();
     private final Random gerarTotalMunicipioHabitante = new Random();
     private String nomeEstado;
